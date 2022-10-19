@@ -1,3 +1,9 @@
+
+
+
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,7 +33,13 @@ header {
 
 .logo{
     cursor: pointer;
+    order: 4;
+    margin-left: auto;
+    border-radius: 20%
 }
+
+
+
 .nav_link{
     list-style: none;
 }
@@ -43,6 +55,10 @@ header {
 
 .nav_link li a:hover{
     color: #0088a9;
+}
+
+.cta {
+    order: 3;
 }
 
 button{
