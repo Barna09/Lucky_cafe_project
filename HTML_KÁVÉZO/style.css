@@ -1,15 +1,5 @@
 
-.kul { 
 
-    position: absolute;
-    width: 1737px;
-    height: 682px;
-    left: 92px;
-    top: 769px;
-    
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-}
 
 
 
@@ -39,55 +29,161 @@ li, a, button {
 
 }
 
-header { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-
-
+header {
+    background-color:rgb(245, 243, 243);
 }
 
-.logo{
-    cursor: pointer;
-    order: 4;
-    margin-left: auto;
-    border-radius: 20%
+.main-nav {
+    height: 90px;
 }
 
+.logo {
+    color: #D1A571;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: 'Pacifico';
+}
 
-
-.nav_link{
+.navlinks {
     list-style: none;
+    float: right;
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
 }
 
-.nav_link li {
+.navlinks li {
     display: inline-block;
-    padding: 0px 20px;
+    margin: 0px 20px;
 }
 
-.nav_link li a {
-    transition: all 0.3s ease 0s;
+.navlinks li a {
+    color: #D1A571;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s linear 0s;
+    text-transform: uppercase;
 }
 
-.nav_link li a:hover{
-    color: #0088a9;
+.navlinks li a:hover {
+    color: #7ebcb9;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #7ebcb9;
 }
 
-.cta {
-    order: 3;
-}
-
-button{
-    padding: 9px 25px ;
-    background-color: rgba(0,136,169,1);
-    border: none;
+li a.contact {
+    background-color: #00adb5;
+    padding: 9px 20px;
     border-radius: 50px;
-    cursor: pointer;
     transition: all 0.3s ease 0s;
+    border-bottom: none;
 }
+
+li a.contact:hover {
+    background-color: #047e85;
+    color: white;
+    border-bottom: none;
+}
+
+#check {
+  display: none;
+}
+
+.menu-btn {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 90px;
+  margin-right: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+
 
 button:hover {
 
     background-color: rgba(0,136,169,1);
 }
+
+.tri {
+    align-items: center;
+    position: absolute;
+    top: 1200px;
+    left: 550px ;
+    border-radius: 20px 20px 20px 20px;
+
+
+
+}
+
+.cap{
+    align-items: center;
+    position:absolute;
+    top:1200px;
+    left: 100px ;
+    border-radius: 20px 20px 20px 20px;
+
+
+}
+
+.dupla {
+    align-items: center;
+    position:absolute;
+    top:1200px;
+    left: 1000px ;
+    border-radius: 20px 20px 20px 20px;
+
+    width: 20% ;
+    height: 237px;
+    
+}
+
+.kave{
+    align-items: center;
+    width: 100%;
+    position:absolute;
+    top:1200px;
+    left: 1450px ;
+    border-radius: 20px 20px 20px 20px;
+    width: 358px;
+    height: 237px;  
+
+}
+
+
+.blogszoveg { 
+
+
+    position: absolute;
+    align-items: center;
+    text-align: left;
+    top: 1650px;
+    color: black;
+    left: 140px;
+    opacity: 100%;
+    font-family:'Pacifico' ;
+    font-size: 35px;
+
+}
+
+
+.alcim {
+
+    font-size: 20px;
+    
+
+
+}
+
+.Blogszovege {
+
+
+
+    
+}
+
+

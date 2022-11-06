@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    <style id="import">
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
         </style>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="mobil.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 , device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="icon" href="logo.png" type="png">
+    
+    <title>Lucky Coffee</title>
 </head>
 <body>
 
@@ -23,38 +26,88 @@
 <header>
     
     
-    <img class="logo" src="output-onlinepngtools.png">
-    <nav>
-        <ul class="nav_link">
-            <li><a href="#">Kezdölap</a></li>
-            <li><a href="#">Árlista</a></li>
-            <li><a href="#">Rólunk</a></li>
-            <li><a href="#">Blog</a></li>
+    <img class="logo" src="output-onlinepngtools.png" alt="Kávézó nagy kép">
+    <nav class="main-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="logo">Lucky Caffee</a>
+        <ul class="navlinks">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="contact">Contact</a></li>
         </ul>
     </nav>
-    <a class="cta" href="#"><button>Contact</button></a>
 
 </header>
 
+
+
+<div class="respo">
+    
+
+
 <main>
 
-<head>
-    <img class="kep" src="Pic/café-museum-innenansicht.jpg" >
-</head>
+
+    <img class="kep" src="café-museum-innenansicht.jpg" >
+
 
     <section>
-<div class="kul">
+<div class="kul  ">
     
-    <div class="szov">
+    <div class="szov  ">
 
-        <h3>Különlegeség</h3>
-    </div>
+        <h4>Különlegeség<h4>
     
-
 </div>
 
-
 </section>
+<div class="szoveg  ">
+    <p>"Csak egy kávé... egy sötét és keserű ital. De mennyi minden tud lenni egy kávé.<br> Nem csak egy sötét és keserű ital. Nem csak egy illat, egy íz... vagy mégis... egy illat, <br>egy íz. De nem a kávéé. A Kedvesé. Akivel kávézol. Akinek kellemes az illata.<br>Lényének illata. Ami lelkéből árad. Ami élénkít. Jobban, mint a kávé. Nem is élénkít, <br> életet ad. Értelmet a létednek.”</p>
+    
+    
+    </div> 
+
+    <div class="responsive  ">
+
+        <img class="tri" src="tiramisu_k.png">
+
+        <img class="cap" src="cappuccino_k.png">
+
+        <img class="dupla" src="duplakave4.jpeg">
+
+        <img class="kave" src="kavézós.jpg">
+
+    </div>
+    <div class="blogbanner ">
+
+        <h3>Utolsó Blog bejegyzés</h3>
+
+    </div>
+
+    <div class="blogszoveg  ">
+
+        <p> A kávé Szeretete           </p>
+        <p class="alcim">   Lucky kávézó csapata </p>
+
+    </div>
+    <div class="Blogszovege">
+        
+
+
+
+
+
+    </div>
+
+
+
+
+
+
 
 </main>
 
@@ -62,10 +115,12 @@
 
 
 <footer>
-<img class="logob" src="logo.png">
+        <img class="logob " src="logo.png">
 
 
 </footer>
+</div>
+
 
 </body>
 </html>
