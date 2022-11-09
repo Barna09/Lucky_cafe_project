@@ -1,0 +1,189 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 243, 243);
+
+
+}
+
+li, a, button {
+    font-family: 'Pacifico';
+    font-weight: 500;
+    font-size: 16px;
+    color: #d1a571;
+    text-decoration: none;
+
+}
+
+header {
+    background-color:rgb(245, 243, 243);
+}
+
+.main-nav {
+    height: 90px;
+}
+
+.logo {
+    color: #D1A571;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: 'Pacifico';
+}
+
+.navlinks {
+    list-style: none;
+    float: right;
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.navlinks li a {
+    color: #D1A571;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s linear 0s;
+    text-transform: uppercase;
+}
+
+.navlinks li a:hover {
+    color: #7ebcb9;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #7ebcb9;
+}
+
+li a.contact {
+    background-color: #00adb5;
+    padding: 9px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    border-bottom: none;
+}
+
+li a.contact:hover {
+    background-color: #047e85;
+    color: white;
+    border-bottom: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu-btn {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 90px;
+    margin-right: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+
+    background-color: rgba(0,136,169,1);
+}
+
+.tri {
+    align-items: center;
+    position: absolute;
+    top: 1200px;
+    left: 550px ;
+    border-radius: 20px 20px 20px 20px;
+
+
+
+}
+
+.cap{
+    align-items: center;
+    position:absolute;
+    top:1200px;
+    left: 100px ;
+    border-radius: 20px 20px 20px 20px;
+
+
+}
+
+.dupla {
+    align-items: center;
+    position:absolute;
+    top:1200px;
+    left: 1000px ;
+    border-radius: 20px 20px 20px 20px;
+
+    width: 20% ;
+    height: 237px;
+    
+}
+
+.kave{
+    align-items: center;
+    width: 100%;
+    position:absolute;
+    top:1200px;
+    left: 1450px ;
+    border-radius: 20px 20px 20px 20px;
+    width: 358px;
+    height: 237px;  
+
+}
+
+
+.blogszoveg { 
+
+
+    position: absolute;
+    align-items: center;
+    text-align: left;
+    top: 1650px;
+    color: black;
+    left: 140px;
+    opacity: 100%;
+    font-family:'Pacifico' ;
+    font-size: 35px;
+
+}
+
+
+.alcim {
+
+    font-size: 20px;
+    
+
+
+}
+
+.Blogszovege {
+
+
+
+    
+}
+
+
